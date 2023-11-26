@@ -1,0 +1,123 @@
+# .gitignore para un proyecto .NET Core
+
+# Carpeta de binarios
+bin/
+obj/
+
+# Carpeta de paquetes de NuGet
+*.nuget.props
+*.paket.props
+*.paket.targets
+**/project.lock.json
+project.lock.json
+packages/
+*.nupkg
+*.dotnet
+
+# Carpeta de archivos de usuario de Visual Studio
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.suo
+*.userosscache
+*.suo
+*.userosscache
+*.suo
+*.userosscache
+*.suo
+*.userosscache
+
+# Carpeta de caché de Rider
+.idea/
+
+# Carpeta de archivos temporales
+[Tt]emp/
+[Vv]isual[Uu]nit[Tt]est/
+[Tt]est[Rr]esults/
+
+# Carpeta de archivos de registro
+*.log
+
+# Carpeta de archivos temporales de compilación
+[Tt]est[Rr]esult*
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Ee][Ss]/
+[Dd][Oo][Cc][Uu][Mm][Ee][Nn][Tt][Aa][Tt][Ii][Oo][Nn]/
+[Oo][bB][Jj]/
+[Ll][Oo][Gg]/
+[Ll][Oo][Gg][Ss]/
+
+# Carpeta de archivos de configuración
+*.sw?
+*.bak
+*.mdb
+*.ldb
+
+# Archivos y carpetas específicos de Visual Studio
+*.sln
+*.suo
+*.user
+*.userosscache
+*.suo
+*.userosscache
+*.suo
+*.userosscache
+*.suo
+*.userosscache
+*.suo
+*.userosscache
+*.suo
+*.userosscache
+*.suo
+*.userosscache
+*.suo
+*.userosscache
+*.suo
+*.userosscache
+
+# Carpeta de archivos de respaldo de Visual Studio
+[Bb]ackup*/
+[Ii]pch/
+[Ii][Nn][Tt][Ee][Rr][Mm][Ee][Dd][Ii][Aa][Tt][Ee]/
+*.tmp/
+*.log/
+*.bak/
+*.cache/
+*.ncb
+[Tt]emp/
+[Tt]mp/
+
+# Carpetas específicas de Rider
+.idea/
+
+# Configuración de Rider
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# Carpeta de caché de Rider
+.idea/cache/
+
+# Carpeta de archivos de respaldo de Rider
+.idea/backups/
+.idea/codeStyles/
+.idea/shelf/
+
+# Archivos de registro de Rider
+.idea/statistics/
+
+# Carpeta de archivos de usuario de Rider
+.idea/uiDesigner.xml
+
+# Carpetas específicas de Visual Studio Code
+.vscode/
+
+# Carpeta de archivos temporales de Visual Studio Code
+.vscode-test/
